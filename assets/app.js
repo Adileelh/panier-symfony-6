@@ -11,7 +11,13 @@ import './styles/app.scss';
 // start the Stimulus application
 import 'popper.js';
 
+
+import bsCustomFileInput from 'bs-custom-file-input'
+
+
+
 import 'bootstrap';
+bsCustomFileInput.init();
 // loads the jquery package from node_modules
 // Font Awesome 5 (Free)
 import '@fortawesome/fontawesome-free/js/fontawesome'
